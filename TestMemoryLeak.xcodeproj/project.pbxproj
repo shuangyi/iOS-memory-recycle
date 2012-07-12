@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		733A182215AE6FD000F228A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 733A182115AE6FD000F228A8 /* UIKit.framework */; };
+		733A182415AE6FD000F228A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 733A182315AE6FD000F228A8 /* Foundation.framework */; };
+		733A182615AE6FD000F228A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 733A182515AE6FD000F228A8 /* CoreGraphics.framework */; };
+		733A182C15AE6FD100F228A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 733A182A15AE6FD100F228A8 /* InfoPlist.strings */; };
+		733A182E15AE6FD100F228A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 733A182D15AE6FD100F228A8 /* main.m */; };
+		733A183215AE6FD100F228A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 733A183115AE6FD100F228A8 /* AppDelegate.m */; };
+		733A183515AE6FD100F228A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 733A183415AE6FD100F228A8 /* ViewController.m */; };
+		733A183815AE6FD100F228A8 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 733A183615AE6FD100F228A8 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		733A181D15AE6FD000F228A8 /* TestMemoryLeak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestMemoryLeak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		733A182115AE6FD000F228A8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		733A182315AE6FD000F228A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		733A182515AE6FD000F228A8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		733A182915AE6FD100F228A8 /* TestMemoryLeak-Info.plist */ = {isa = PBXFileReference; path = "TestMemoryLeak-Info.plist"; sourceTree = "<group>"; };
+		733A182B15AE6FD100F228A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		733A182D15AE6FD100F228A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		733A182F15AE6FD100F228A8 /* TestMemoryLeak-Prefix.pch */ = {isa = PBXFileReference; path = "TestMemoryLeak-Prefix.pch"; sourceTree = "<group>"; };
+		733A183015AE6FD100F228A8 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		733A183115AE6FD100F228A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		733A183315AE6FD100F228A8 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		733A183415AE6FD100F228A8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		733A183715AE6FD100F228A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		733A181A15AE6FD000F228A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				733A182215AE6FD000F228A8 /* UIKit.framework in Frameworks */,
+				733A182415AE6FD000F228A8 /* Foundation.framework in Frameworks */,
+				733A182615AE6FD000F228A8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		733A181215AE6FCF00F228A8 = {
+			isa = PBXGroup;
+			children = (
+				733A182715AE6FD100F228A8 /* TestMemoryLeak */,
+				733A182015AE6FD000F228A8 /* Frameworks */,
+				733A181E15AE6FD000F228A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		733A181E15AE6FD000F228A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				733A181D15AE6FD000F228A8 /* TestMemoryLeak.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		733A182015AE6FD000F228A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				733A182115AE6FD000F228A8 /* UIKit.framework */,
+				733A182315AE6FD000F228A8 /* Foundation.framework */,
+				733A182515AE6FD000F228A8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		733A182715AE6FD100F228A8 /* TestMemoryLeak */ = {
+			isa = PBXGroup;
+			children = (
+				733A183015AE6FD100F228A8 /* AppDelegate.h */,
+				733A183115AE6FD100F228A8 /* AppDelegate.m */,
+				733A183315AE6FD100F228A8 /* ViewController.h */,
+				733A183415AE6FD100F228A8 /* ViewController.m */,
+				733A183615AE6FD100F228A8 /* ViewController.xib */,
+				733A182815AE6FD100F228A8 /* Supporting Files */,
+			);
+			path = TestMemoryLeak;
+			sourceTree = "<group>";
+		};
+		733A182815AE6FD100F228A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				733A182915AE6FD100F228A8 /* TestMemoryLeak-Info.plist */,
+				733A182A15AE6FD100F228A8 /* InfoPlist.strings */,
+				733A182D15AE6FD100F228A8 /* main.m */,
+				733A182F15AE6FD100F228A8 /* TestMemoryLeak-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		733A181C15AE6FD000F228A8 /* TestMemoryLeak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 733A183B15AE6FD100F228A8 /* Build configuration list for PBXNativeTarget "TestMemoryLeak" */;
+			buildPhases = (
+				733A181915AE6FD000F228A8 /* Sources */,
+				733A181A15AE6FD000F228A8 /* Frameworks */,
+				733A181B15AE6FD000F228A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestMemoryLeak;
+			productName = TestMemoryLeak;
+			productReference = 733A181D15AE6FD000F228A8 /* TestMemoryLeak.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		733A181415AE6FCF00F228A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 733A181715AE6FCF00F228A8 /* Build configuration list for PBXProject "TestMemoryLeak" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 733A181215AE6FCF00F228A8;
+			productRefGroup = 733A181E15AE6FD000F228A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				733A181C15AE6FD000F228A8 /* TestMemoryLeak */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		733A181B15AE6FD000F228A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				733A182C15AE6FD100F228A8 /* InfoPlist.strings in Resources */,
+				733A183815AE6FD100F228A8 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		733A181915AE6FD000F228A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				733A182E15AE6FD100F228A8 /* main.m in Sources */,
+				733A183215AE6FD100F228A8 /* AppDelegate.m in Sources */,
+				733A183515AE6FD100F228A8 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		733A182A15AE6FD100F228A8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				733A182B15AE6FD100F228A8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		733A183615AE6FD100F228A8 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				733A183715AE6FD100F228A8 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		733A183915AE6FD100F228A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		733A183A15AE6FD100F228A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		733A183C15AE6FD100F228A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestMemoryLeak/TestMemoryLeak-Prefix.pch";
+				INFOPLIST_FILE = "TestMemoryLeak/TestMemoryLeak-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		733A183D15AE6FD100F228A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestMemoryLeak/TestMemoryLeak-Prefix.pch";
+				INFOPLIST_FILE = "TestMemoryLeak/TestMemoryLeak-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		733A181715AE6FCF00F228A8 /* Build configuration list for PBXProject "TestMemoryLeak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				733A183915AE6FD100F228A8 /* Debug */,
+				733A183A15AE6FD100F228A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		733A183B15AE6FD100F228A8 /* Build configuration list for PBXNativeTarget "TestMemoryLeak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				733A183C15AE6FD100F228A8 /* Debug */,
+				733A183D15AE6FD100F228A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 733A181415AE6FCF00F228A8 /* Project object */;
+}
