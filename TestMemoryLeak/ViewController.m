@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "SecondVC.h"
 
 @interface ViewController ()
 
@@ -29,6 +30,16 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+}
+
+- (IBAction)pushAVC:(UIButton *)sender{
+    SecondVC *aVC = [[SecondVC alloc]initWithNibName:@"SecondVC" bundle:nil];
+    UINavigationController *navi = [[UINavigationController alloc]initWithRootViewController:aVC];
+    navi.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
+    [self presentModalViewController:navi animated:YES];
+    [aVC release];
+    [navi release];
+    
 }
 
 @end

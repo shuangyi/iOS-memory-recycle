@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  SecondVC.h
 //  TestMemoryLeak
 //
 //  Created by 李 双义 on 12-7-12.
@@ -8,11 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@class ViewController;
-
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface SecondVC : UIViewController{
+    IBOutlet UIScrollView *mSV;
+}
 
 @end
